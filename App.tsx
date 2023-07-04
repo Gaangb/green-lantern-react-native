@@ -16,7 +16,7 @@ export default function App() {
 
   return (
     <View style={ActivateState? styles.containerOn : styles.containerOff}>
-      <TouchableOpacity onPress={()=>{handleSymbol}}>
+      <TouchableOpacity onPress={()=>{handleSymbol()}}>
         <Image 
           source={ActivateState? symbolOn : symbolOff}
         />
