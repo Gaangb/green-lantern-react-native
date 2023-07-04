@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
+import { StyleSheet, View, Image, TouchableOpacity } from 'react-native';
 import symbolOn from './assets/pictures/symbol-on.png';
 import symbolOff from './assets/pictures/symbol-off.png';
 
